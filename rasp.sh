@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su -
 mount -o remount,rw /
 #download shopip file
 cd /usr/local/bin
