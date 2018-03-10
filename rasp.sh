@@ -1,15 +1,16 @@
 #!/bin/bash
-sudo mount -o remount,rw /
+sudo su 
+mount -o remount,rw /
 #download shopip file
 cd /usr/local/bin
-sudo wget https://github.com/bg2kjt/showip/raw/master/raspberry/MMDVMHost-ip
-sudo cp MMDVMHost MMDVMHost-o
-sudo rm MMDVMHost
-sudo cp MMDVMHost-ip MMDVMHost
-sudo chmod 755 MMDVMHost
+wget https://github.com/bg2kjt/showip/raw/master/raspberry/MMDVMHost-ip
+cp MMDVMHost MMDVMHost-o
+rm MMDVMHost
+cp MMDVMHost-ip MMDVMHost
+chmod 755 MMDVMHost
 #download config file
 cd /etc
-sudo cp mmdvmhost mmdvmhost-o
-sudo rm mmdvmhost
-sudo wget https://github.com/bg2kjt/showip/raw/master/mmdvmhost
-sudo mount -o remount,ro /
+cp mmdvmhost mmdvmhost-o
+rm mmdvmhost
+wget https://github.com/bg2kjt/showip/raw/master/mmdvmhost
+mount -o remount,ro /
