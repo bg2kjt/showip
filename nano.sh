@@ -2,7 +2,7 @@
 sudo mount -o remount,rw /
 #download shopip file
 cd /usr/local/bin
-wget https://github.com/bg2kjt/showip/master/raw/nanopi/MMDVMHost-ip
+wget https://github.com/bg2kjt/showip/raw/master/raw/nanopi/MMDVMHost-ip
 sudo cp MMDVMHost MMDVMHost-o
 sudo rm MMDVMHost
 sudo cp MMDVMHost-ip MMDVMHost
