@@ -8,7 +8,7 @@ cd /etc
 sudo rm mmdvmhost
 sudo cp mmdvmhost-o mmdvmhost
 sudo rm /home/pi-star/restore.sh
-sudo mount -o remount,ro /
 #update&upgrade
 sudo pistar-update && pistar-upgrade
+sudo mount -o remount,ro /
 sudo reboot
