@@ -11,4 +11,4 @@ sudo rm /home/pi-star/restore.sh
 sudo mount -o remount,ro /
 #update&upgrade
 sudo pistar-update && pistar-upgrade
-#sudo reboot
+sudo reboot
