@@ -10,5 +10,5 @@ sudo cp mmdvmhost-o mmdvmhost
 sudo rm /home/pi-star/restore.sh
 #update&upgrade
 sudo pistar-update && pistar-upgrade
-sudo mount -o remount,ro /
+#sudo mount -o remount,ro /
 sudo reboot
