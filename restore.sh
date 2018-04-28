@@ -2,6 +2,7 @@
 sudo mount -o remount,rw /
 #Restore the modified MMDVMHost
 cd /usr/local/bin
+sudo rm MMDVMHost
 sudo cp MMDVMHost-o MMDVMHost
 #Restore the modified mmdvmhost
 cd /etc
